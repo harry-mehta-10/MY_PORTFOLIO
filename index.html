@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./lib/fontawesome-free-5.15.4-web/css/all.css">
+        <link rel="stylesheet" href="./css/global.css">
+        <link rel="stylesheet" href="./css/home.css">
+        <script src="./js/navbar.js"></script>
+        <title>Home</title>
+    </head>
+    <body id="p-home">
+        <header class="g-header g-container">
+            <a class="g-site-title" href="./index.html">Hardik(Harry) Mehta</a>
+            <nav class="g-navbar">
+                <a href="#" class="active" >Home</a>
+                <a href="./pages/resume.html">Resume</a>
+                <a href="./pages/projects.html">Projects</a>
+            </nav>
+        </header>
+        <nav class="g-mobile-navbar">
+            <div class="m-active">
+                <a href="#">Home</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars fa-lg"></i></a>
+            </div>
+            <div id="links">
+                <a href="./pages/resume.html">Resume</a>
+                <a href="./pages/projects.html">Projects</a>
+            </div>
+        </nav>
+        <main class="g-container">
+            <section class="g-title">
+                <div class="main">
+                    <h2>Hello,<br> my name is <span>Harry</span></h2>
+                    <div class="description">And this is my portfolio website! Please go ahead and explore to find out all the relevant work and projects I've done as a Programmer. I hope you'll like it!</div>
+                    <div class="buttons">
+                        <a href="https://github.com/harry-mehta-10"><i class="fab fa-github fa-lg"></i>GitHub</a>
+                        <a href="./pages/resume.html">My resume</a>
+                    </div>
+                </div>
+                <img src="images/test.svg">
+            </section>
+            <div id="s-featured">
+                <h2>Featured Projects</h2>
+                <div class="cards-container">
+                    <a class="card" href="./pages/projects.html#Pygame">
+                        <img src="./images/PyGame.png">
+                        <div class="card-text">
+                            <div class="card-title">2-D PyGame</div>
+                            <div class="card-desc">A user interactive ping-pong game made using PyGame keeps a score and stores the highest score and the game information in a database.</div>
+                        </div>
+                    </a>
+                    <a class="card" href="./pages/projects.html#portfolio">
+                        <img src="./images/portfolio.png">
+                        <div class="card-text">
+                            <div class="card-title">Portfolio Website</div>
+                            <div class="card-desc">Made this website using the web development technologies I learnt in the first semester, including HTML, CSS.</div>
+                        </div>
+                    </a>
+                    <a class="card" href="./pages/projects.html#project_tracker">
+                        <img src="./images/Project Tracker.png">
+                        <div class="card-text">
+                            <div class="card-title">Project Tracker Application</div>
+                            <div class="card-desc">Built a project tracker application using python which uses SQLite for data storage and provides functionality to create, view, add, delete projects and tasks.</div>
+                        </div>
+                    </a>
+                    <a class="card" href="./pages/projects.html#ER_diagram">
+                        <img src="./images/ER Diagram.png">
+                        <div class="card-text">
+                            <div class="card-title">Social Media Database Management System</div>
+                            <div class="card-desc">Developed a relational database management system tailored for social media platorm. The system includes tables for a bunch of stuff implemented using SQL and created an ER-diagram to demonstrate the database design.</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </main>
+        <div class="g-footer-bg">
+            <footer class="g-footer g-container">
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/hardikmehta25/"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                    <a href="mailto:hardik25mehta@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+                    <a href="https://github.com/harry-mehta-10"><i class="fab fa-github fa-2x"></i></a>
+                </div>
+                <div class="copyright">&copy; 2024 Harry Mehta</div>
+            </footer>
+        </div>
+    </body>
+</html>
